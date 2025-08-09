@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#include "RS485.h"
+#include "ArduinoRS485.h"
 
 void rs485_init(rs485_uart_t *dev) {
     pinMode(dev->de_pin, OUTPUT);
