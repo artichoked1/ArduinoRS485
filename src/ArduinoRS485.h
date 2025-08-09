@@ -1,5 +1,4 @@
-#ifndef RS485_H
-#define RS485_H
+#pragma once
 
 #include <Arduino.h>
 
@@ -21,7 +20,3 @@ void rs485_end_transmission(rs485_uart_t *dev);
 
 void rs485_enter_shutdown(rs485_uart_t *dev);
 void rs485_exit_shutdown(rs485_uart_t *dev);
-
-
-
-#endif
